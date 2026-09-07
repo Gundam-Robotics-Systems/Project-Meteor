@@ -1,0 +1,26 @@
+{
+  "project_name": "project_meteor_capsule",
+  "vehicle_class": "Automated_Orbital_Reentry_Vehicle",
+  "geometry": {
+    "hull_shape": "Spherical_Capsule",
+    "outer_diameter_meters": 18.5,
+    "internal_volume_cubic_meters": 2100.0,
+    "empty_mass_kg": 45000
+  },
+  "propulsion": {
+    "rcs_fuel_type": "MMH_NTO_Hypergolic",
+    "thruster_clusters": 8,
+    "thrusters_per_cluster": 4,
+    "max_thrust_per_nozzle_kn": 25.0
+  },
+  "thermal_protection": {
+    "shield_type": "Carbon_Phenolic_Ablative",
+    "max_design_temperature_celsius": 2800,
+    "reentry_profile": "Ballistic_High_Drag"
+  },
+  "payload_envelope": {
+    "target_chassis": "Mobile_Suit_Gundam_Class",
+    "max_payload_mass_kg": 75000,
+    "dampener_type": "Active_Hydraulic_Shock_Isolation"
+  }
+}
