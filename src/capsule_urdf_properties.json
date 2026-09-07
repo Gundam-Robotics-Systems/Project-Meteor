@@ -1,0 +1,26 @@
+{
+  "robot_name": "gundam_satellite_capsule",
+  "base_link": {
+    "geometry_type": "sphere",
+    "radius_meters": 9.25,
+    "total_mass_kg": 45000.0,
+    "center_of_mass": [0.0, 0.0, -0.45],
+    "inertia_matrix": {
+      "ixx": 1540125.0,
+      "iyy": 1540125.0,
+      "izz": 1540125.0
+    }
+  },
+  "subsystems": {
+    "thermal_protection": {
+      "shield_material": "Ablative_Carbon_Phenolic",
+      "thickness_mm": 150.0,
+      "max_thermal_load_kw_m2": 3200.0
+    },
+    "payload_bay": {
+      "clearance_height_m": 16.5,
+      "clearance_width_m": 12.0,
+      "shock_absorption": "Active_Magnetorheological_Dampers"
+    }
+  }
+}
